@@ -1,0 +1,27 @@
+{
+  "name": "shorternIt",
+  "version": "1.0.0",
+  "description": "An app that allow you shorten your url for you",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/louisdante9/shorternIt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/louisdante9/shorternIt/issues"
+  },
+  "homepage": "https://github.com/louisdante9/shorternIt#readme",
+  "dependencies": {
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.15",
+    "shortid": "^2.2.15"
+  }
+}
